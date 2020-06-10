@@ -1,0 +1,17 @@
+/* pages/theme/theme.wxss */
+@import "../tpls/product/product-tpl.wxss";
+.theme-header{
+  width: 100%;
+  height: 400rpx;
+  bottom: 30rpx; 
+  position: relative;
+}
+.theme-header image{
+  width: 100%;
+  height: 100%;
+}
+
+.theme-main{
+
+
+}

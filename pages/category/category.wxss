@@ -1,0 +1,53 @@
+/* pages/category/category.wxss */
+@import "../tpls/category/category-tpl.wxss";
+
+.catagory-box{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.left-subfield-box{
+  flex: 0 0 150rpx;
+  border: 1rpx solid rgb(202, 196, 196);
+}
+.category-item{
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+}
+.tabrCategory{
+  color: #AB956D;
+  border-left: 2rpx solid #AB956D;
+}
+.right-box{
+  /* flex: 1; */
+  transition: all 500ms ease-in-out;
+}
+.right-header-box{
+  /* border: 1rpx solid red; */
+  
+  height: 100vh;
+}
+.translate1{
+  transform:  translate(0,0);
+}
+.translate2{
+  transform:  translate(0,-100vh);
+}
+.translate3{
+  transform:  translate(0,-200vh);
+}
+.translate4{
+  transform:  translate(0,-300vh);
+}
+.translate5{
+  transform:  translate(0,-400vh);
+}
+.translate6{
+  transform:  translate(0,-500vh);
+}

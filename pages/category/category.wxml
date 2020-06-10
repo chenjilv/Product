@@ -1,0 +1,36 @@
+<!--pages/category/category.wxml-->
+<import src="../tpls/category/category-tpl.wxml"/>
+<view  class="container">
+  <view class="catagory-box">
+    <view class="left-subfield-box">
+      <block wx:for="{{catagoryArr}}">
+      <view class="category-item {{catagoryIndex==index?'tabrCategory':''}}" bindtap="categoryTap" data-id="{{item.id}}" data-index="{{index}}">
+          {{item.name}}
+      </view>
+      </block>
+
+    </view>
+    <view class="right-box {{transClassArr[catagoryIndex]}}">
+      <view class=".right-header-box" >
+        <template is="category-products" data="{{productsiInfo:productobj0}}"></template>
+      </view>
+       <view class=".right-header-box" >
+        <template is="category-products" data="{{productsiInfo:productobj1}}"></template>
+      </view> 
+      <view class=".right-header-box" >
+        <template is="category-products" data="{{productsiInfo:productobj2}}"></template>
+      </view> 
+      <view class=".right-header-box" >
+        <template is="category-products" data="{{productsiInfo:productobj3}}"></template>
+      </view> 
+      <view class=".right-header-box" >
+        <template is="category-products" data="{{productsiInfo:productobj4}}"></template>
+      </view>
+      <view class=".right-header-box" >
+        <template is="category-products" data="{{productsiInfo:productobj5}}"></template>
+      </view>
+      <view></view>
+    </view>
+  </view>
+
+</view>

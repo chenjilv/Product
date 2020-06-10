@@ -1,0 +1,20 @@
+<template name="category-products">
+  <view class="products-box">
+    <view class="products-header">
+      <image src="{{productsiInfo.topimg}}" mode="aspectFit"></image>
+    </view>
+    <view class="product-title">
+      <text>{{productsiInfo.title}}</text>
+    </view>
+    <view class="products-item-box">
+      <block wx:for="{{productsiInfo.products}}">
+        <view class="products-item {{index%3==1?'middle':''}}" bindtap="productDetail" data-id="{{item.id}}">
+          <image src="{{item.main_img_url}}" mode="aspectFit"></image>
+          <view>{{item.name}}</view>
+        </view>
+      
+       
+      </block>
+    </view>
+  </view>
+</template>

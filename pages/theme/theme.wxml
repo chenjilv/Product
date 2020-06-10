@@ -1,0 +1,10 @@
+<!--pages/theme/theme.wxml-->
+<import src="../tpls/product/product-tpl.wxml"/>
+<view class="container">
+  <view class="theme-header">
+    <image src="{{themetInfo.head_img.url}}"></image>
+  </view>
+  <view class="theme-main">
+  <template is="product" data ="{{product:themetInfo.products}}"></template>
+  </view>
+</view>

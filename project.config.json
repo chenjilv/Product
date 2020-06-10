@@ -1,0 +1,82 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.2",
+	"appid": "wx40aa90119b6d7bfa",
+	"projectname": "Product",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "详情",
+					"pathName": "pages/product/product",
+					"query": "id = 6",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/category/category",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "购物车",
+					"pathName": "pages/cart/cart",
+					"scene": null
+				}
+			]
+		}
+	}
+}
